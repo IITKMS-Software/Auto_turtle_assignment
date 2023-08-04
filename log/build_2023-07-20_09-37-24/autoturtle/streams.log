@@ -1,0 +1,24 @@
+[0.346s] Invoking command in '/root/ros2_ws/src/autoturtle': PYTHONPATH=/root/ros2_ws/build/autoturtle/prefix_override:/root/ros2_ws/install/autoturtle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/autoturtle build --build-base /root/ros2_ws/build/autoturtle/build install --record /root/ros2_ws/build/autoturtle/install.log --install-scripts $base/lib/autoturtle --single-version-externally-managed
+[0.454s] running egg_info
+[0.454s] writing ../../build/autoturtle/autoturtle.egg-info/PKG-INFO
+[0.454s] writing dependency_links to ../../build/autoturtle/autoturtle.egg-info/dependency_links.txt
+[0.454s] writing entry points to ../../build/autoturtle/autoturtle.egg-info/entry_points.txt
+[0.454s] writing requirements to ../../build/autoturtle/autoturtle.egg-info/requires.txt
+[0.454s] writing top-level names to ../../build/autoturtle/autoturtle.egg-info/top_level.txt
+[0.475s] reading manifest file '../../build/autoturtle/autoturtle.egg-info/SOURCES.txt'
+[0.476s] writing manifest file '../../build/autoturtle/autoturtle.egg-info/SOURCES.txt'
+[0.476s] running build
+[0.476s] running build_py
+[0.476s] copying autoturtle/turtlesim_move.py -> /root/ros2_ws/build/autoturtle/build/lib/autoturtle
+[0.476s] running install
+[0.477s] running install_lib
+[0.477s] copying /root/ros2_ws/build/autoturtle/build/lib/autoturtle/turtlesim_move.py -> /root/ros2_ws/install/autoturtle/lib/python3.8/site-packages/autoturtle
+[0.478s] byte-compiling /root/ros2_ws/install/autoturtle/lib/python3.8/site-packages/autoturtle/turtlesim_move.py to turtlesim_move.cpython-38.pyc
+[0.479s] running install_data
+[0.479s] running install_egg_info
+[0.480s] removing '/root/ros2_ws/install/autoturtle/lib/python3.8/site-packages/autoturtle-0.0.0-py3.8.egg-info' (and everything under it)
+[0.481s] Copying ../../build/autoturtle/autoturtle.egg-info to /root/ros2_ws/install/autoturtle/lib/python3.8/site-packages/autoturtle-0.0.0-py3.8.egg-info
+[0.481s] running install_scripts
+[0.493s] Installing turtlesim_move script to /root/ros2_ws/install/autoturtle/lib/autoturtle
+[0.493s] writing list of installed files to '/root/ros2_ws/build/autoturtle/install.log'
+[0.506s] Invoked command in '/root/ros2_ws/src/autoturtle' returned '0': PYTHONPATH=/root/ros2_ws/build/autoturtle/prefix_override:/root/ros2_ws/install/autoturtle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/autoturtle build --build-base /root/ros2_ws/build/autoturtle/build install --record /root/ros2_ws/build/autoturtle/install.log --install-scripts $base/lib/autoturtle --single-version-externally-managed
