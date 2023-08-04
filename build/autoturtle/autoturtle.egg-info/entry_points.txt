@@ -1,0 +1,7 @@
+[console_scripts]
+back_to_square_one = autoturtle.back_to_square_one:main
+swim_school = autoturtle.swim_school:main
+swim_to_goal = autoturtle.swim_to_goal:main
+swimschool = autoturtle.swimschool:main
+turtlesim_move = autoturtle.turtlesim_move:main
+

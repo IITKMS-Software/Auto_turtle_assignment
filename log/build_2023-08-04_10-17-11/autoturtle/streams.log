@@ -1,0 +1,31 @@
+[0.375s] Invoking command in '/root/ros2_ws/src/autoturtle': PYTHONPATH=/root/ros2_ws/build/autoturtle/prefix_override:/root/ros2_ws/install/autoturtle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/autoturtle build --build-base /root/ros2_ws/build/autoturtle/build install --record /root/ros2_ws/build/autoturtle/install.log --install-scripts $base/lib/autoturtle --single-version-externally-managed
+[0.486s] running egg_info
+[0.486s] writing ../../build/autoturtle/autoturtle.egg-info/PKG-INFO
+[0.486s] writing dependency_links to ../../build/autoturtle/autoturtle.egg-info/dependency_links.txt
+[0.486s] writing entry points to ../../build/autoturtle/autoturtle.egg-info/entry_points.txt
+[0.486s] writing requirements to ../../build/autoturtle/autoturtle.egg-info/requires.txt
+[0.486s] writing top-level names to ../../build/autoturtle/autoturtle.egg-info/top_level.txt
+[0.509s] reading manifest file '../../build/autoturtle/autoturtle.egg-info/SOURCES.txt'
+[0.510s] writing manifest file '../../build/autoturtle/autoturtle.egg-info/SOURCES.txt'
+[0.510s] running build
+[0.510s] running build_py
+[0.510s] copying autoturtle/swim_school.py -> /root/ros2_ws/build/autoturtle/build/lib/autoturtle
+[0.511s] copying autoturtle/swimschool.py -> /root/ros2_ws/build/autoturtle/build/lib/autoturtle
+[0.511s] running install
+[0.511s] running install_lib
+[0.512s] copying /root/ros2_ws/build/autoturtle/build/lib/autoturtle/swim_school.py -> /root/ros2_ws/install/autoturtle/lib/python3.8/site-packages/autoturtle
+[0.512s] copying /root/ros2_ws/build/autoturtle/build/lib/autoturtle/swimschool.py -> /root/ros2_ws/install/autoturtle/lib/python3.8/site-packages/autoturtle
+[0.512s] byte-compiling /root/ros2_ws/install/autoturtle/lib/python3.8/site-packages/autoturtle/swim_school.py to swim_school.cpython-38.pyc
+[0.513s] byte-compiling /root/ros2_ws/install/autoturtle/lib/python3.8/site-packages/autoturtle/swimschool.py to swimschool.cpython-38.pyc
+[0.514s] running install_data
+[0.514s] running install_egg_info
+[0.515s] removing '/root/ros2_ws/install/autoturtle/lib/python3.8/site-packages/autoturtle-0.0.0-py3.8.egg-info' (and everything under it)
+[0.515s] Copying ../../build/autoturtle/autoturtle.egg-info to /root/ros2_ws/install/autoturtle/lib/python3.8/site-packages/autoturtle-0.0.0-py3.8.egg-info
+[0.516s] running install_scripts
+[0.528s] Installing back_to_square_one script to /root/ros2_ws/install/autoturtle/lib/autoturtle
+[0.528s] Installing swim_school script to /root/ros2_ws/install/autoturtle/lib/autoturtle
+[0.528s] Installing swim_to_goal script to /root/ros2_ws/install/autoturtle/lib/autoturtle
+[0.528s] Installing swimschool script to /root/ros2_ws/install/autoturtle/lib/autoturtle
+[0.528s] Installing turtlesim_move script to /root/ros2_ws/install/autoturtle/lib/autoturtle
+[0.528s] writing list of installed files to '/root/ros2_ws/build/autoturtle/install.log'
+[0.547s] Invoked command in '/root/ros2_ws/src/autoturtle' returned '0': PYTHONPATH=/root/ros2_ws/build/autoturtle/prefix_override:/root/ros2_ws/install/autoturtle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/autoturtle build --build-base /root/ros2_ws/build/autoturtle/build install --record /root/ros2_ws/build/autoturtle/install.log --install-scripts $base/lib/autoturtle --single-version-externally-managed

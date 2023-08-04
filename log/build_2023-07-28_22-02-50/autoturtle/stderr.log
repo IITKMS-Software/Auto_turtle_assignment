@@ -1,0 +1,5 @@
+  File "/root/ros2_ws/install/autoturtle/lib/python3.8/site-packages/autoturtle/swim_school.py", line 18
+    if(self.count % 63 == 0)
+                           ^
+SyntaxError: invalid syntax
+
