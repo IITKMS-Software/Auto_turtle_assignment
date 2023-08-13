@@ -18,8 +18,8 @@ class TurtlesimControl(Node):
 
     def run_eight_shape(self, linear_velocity, angular_velocity):
         msg = Twist()
-        msg.linear.x = linear_velocity
-        msg.angular.z = angular_velocity
+        msg.linear.x = float(linear_velocity)  # Convert to float
+        msg.angular.z = float(angular_velocity)  # Convert to float
 
         duration = 5.0
         loop_rate = 10
