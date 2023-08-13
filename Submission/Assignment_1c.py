@@ -15,10 +15,6 @@ class TurtlesimSquare(Node):
         return length
 
     def draw_square(self, length):
-        msg = Twist()
-        msg.linear.x = 0
-        msg.angular.z = 0
-
         set_pen_service = self.create_client(SetPen, 'turtle1/set_pen')
         while not set_pen_service.wait_for_service(timeout_sec=1.0):
             pass
@@ -31,6 +27,7 @@ class TurtlesimSquare(Node):
         request.off = 0
 
         for _ in range(4):
+            msg = Twist()  # Create a new Twist message
             msg.linear.x = length
             self.cmd_vel_pub.publish(msg)
             rclpy.sleep(length / 2.0)
